@@ -26,6 +26,11 @@ if( passwordlength < 8){     //condition if password length less that 8
     alert("password has to be greater than 8 and less than 128")      //alert message to add the right size
   var passwordlength = prompt("how many charcters is your password would be"); //if the size right in length assign it to newpaasword
   }
+  
+   var lowerconf = window.confirm("Would like to add lowercase to you password y/n"); //option to weather to add upper or not
+    if(lowerconf){  //if yes 
+      allchar= allchar + lower; //store that upper char to allchar
+    }
  
  
     //option weather to add upper or not
