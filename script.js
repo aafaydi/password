@@ -18,7 +18,7 @@ function generatePassword() {
  
 
 var passwordlength = prompt("how many charcters is your password would be");  //create passwordlenght from the user input
-if( passwordlength < 8){     //condition if password length less that 8
+if(passwordlength<8){     //condition if password length less that 8
   alert("password has to be greater than 8 and less than 128")  //alert message to add the right size
   var passwordlength = prompt("how many charcters is your password would be");  //if the size right in length assign it to newpaasword
   }
@@ -41,13 +41,13 @@ if( passwordlength < 8){     //condition if password length less that 8
 
     //option weather to add number or not
     var numberconf =  window.confirm("Would like to add numbers to you password y/n"); 
-    if( numberconf){  //if yes
+    if(numberconf){  //if yes
       allchar= allchar + number; //if yes store that number char to allchar
     }
     
     //option weather to add symbol or not
     var symbolconf = window.confirm("Would like to add symbol to you password y/n"); 
-    if( symbolconf){ //if yes
+    if(symbolconf){ //if yes
       allchar= allchar + symbol; //if yes store that symbol char to allchar
     }
     console.log(allchar); //display all char or answer 
