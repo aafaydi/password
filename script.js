@@ -10,14 +10,7 @@ var number= "0123456789";                        //define number
 var symbol= "!@#$%^&*()_+~`|}{[]\:;?><,./-=";   // define symbol  
 var allchar= "";                                //create allchar
 
-var test = function() {
-  var response = prompt("how many charcters is your password would be");
-  if (response != "number" || response === "") {
-    window.alert("You need to provide a valid answer! Please try again."); 
-    test();
-  }
-  return response;
-}
+
 
 
 function generatePassword() {
