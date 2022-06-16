@@ -19,3 +19,5 @@ Created by Ahmad Faydi with the help of my wonderful tutor.
 # Repo 
 Repo: https://github.com/aafaydi/password
 Live repo: https://aafaydi.github.io/password/
+
+![image](https://user-images.githubusercontent.com/97416091/174146340-cf86dadb-2e5b-4804-9a4d-e72240d89914.png)
