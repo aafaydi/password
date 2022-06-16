@@ -17,8 +17,12 @@ Created by Ahmad Faydi with the help of my wonderful tutor.
 
 
 # Repo 
-Repo: https://github.com/aafaydi/password
+Repo: https://github.com/aafaydi/password &nbsp
 Live repo: https://aafaydi.github.io/password/
+
+# Walking video:
+https://youtu.be/umW7ir88vh0
+
 
 # image
 
